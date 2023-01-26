@@ -14,3 +14,15 @@ p.cl3 {
 }
 
 /* 6-27 */
+h1 {
+    text-transform: capitalize;
+}
+strong {
+    text-transform: uppercase;
+}
+p.cummings {
+    text-transform: lowercase;
+}
+p.raw {
+    text-transform: none;
+}
