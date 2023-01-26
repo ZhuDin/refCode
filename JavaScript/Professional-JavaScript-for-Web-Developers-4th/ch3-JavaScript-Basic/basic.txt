@@ -1,0 +1,66 @@
+3.2 关键字和保留字
+
+    ECMA-262第6版规定的所有关键字如下：
+    break       do          in          typeof      case        else
+    instanceof  var         catch       export      new         void
+    class       extends     return      while       const       finally
+    super       with        continue    for         switch      yield
+    debugger    function    this        default     if          throw
+    delete      import      try
+
+    始终保留字：enum
+
+    严格模式下保留：
+    implements  package     public      interface   protected   static
+    let         private
+
+    模块代码中保留：await
+
+--------------------------------------------------------------------------------
+3.4 数据类型
+
+    ECMAScript有6种简单数据类型（也称原始类型）：Undefined、Null、Boolean、
+Number、String和Symbol。还有一种复杂数据类型叫Object，它是一种无序名值对的集合。
+
+-------------------------------------------------------------------------------
+3.4.1 typeof操作符
+
+    因为ECMAScript的类型系统是松散的，因此可以使用typeof操作符来确定一个值的数
+据类型。
+    
+    "undefined" 表示值未定义
+    "boolean"   表示值为布尔值
+    "string"    表示值为字符串
+    "number"    表示值为数值
+    "object"    表示值为对象（而不是函数）或null
+    "function"  表示值为函数
+    "symbol"    表示值为符号
+    
+-------------------------------------------------------------------------------
+3.4.8 object类型
+
+    ECMAScript中的Object类型是派生其他对象的基类。其所有属性和方法在派生的对象
+上同样存在。
+    
+    每个Object实例都有如下属性和方法。
+    
+    ·constructor：用于创建当前对象的函数。
+    
+    ·hasOwnProperty(propertyName)：用于判断当前对象实例上是否存在给定的属性。
+    
+    ·isPrototypeOf(object)：用于判断当前对象是否为另一个对象的原型。
+    
+    ·propertyIsEnumerable(propertyName)：用于判断给定的属性是否可以使用for-in。
+    
+    ·toLocaleString()：返回对象的字符串表示，反映对象所在的本地化执行环境。
+    
+    ·toString()：返回对象的字符串表示。
+    
+    ·valueOf()：返回对象对应的字符串、数值或布尔值表示。
+
+-------------------------------------------------------------------------------
+3.5 操作符
+
+3.5.9 条件操作符
+
+    语法：variable = boolean_expression ? true_value : false_value;

@@ -1,0 +1,13 @@
+body {
+    background-color: rgb(48, 56, 65);
+}
+div {
+    text-align: center;
+    vertical-align: middle;
+}
+#west {
+    text-align: left;
+}
+#east {
+    text-align: right;
+}

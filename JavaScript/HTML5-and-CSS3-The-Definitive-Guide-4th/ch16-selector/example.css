@@ -1,0 +1,33 @@
+.divYellow {
+    background: green;
+}
+[id=section2] {
+    background: blue;
+}
+
+/*16-3*/
+a[href$=\/]:after, a[href$=htm]:after, a[href$=html]:after {
+    content: 'web';
+    color: red;
+}
+a[href$=jpg]:after {
+    content: 'jpeg';
+    content: green;
+}
+
+/*16-6*/
+li:before {
+    content: "-";
+}
+
+/*16-7*/
+li:after {
+    content: "(copyright)";
+    font-size: 12px;
+    color: red;
+}
+
+/*16-10*/
+:target {
+    background-color: yellowgreen;
+}

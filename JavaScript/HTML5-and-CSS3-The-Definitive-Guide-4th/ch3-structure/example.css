@@ -1,0 +1,5 @@
+article, aside, dialog, figure, header, legend, nav, section, main {
+    display: block;
+}
+nav {float； left; width: 20%;}
+article {float: right; width: 79%;}

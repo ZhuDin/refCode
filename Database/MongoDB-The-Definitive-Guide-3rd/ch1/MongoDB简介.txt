@@ -1,0 +1,4 @@
+1.1 易于使用
+    MongoDB不是关系数据库，而是面向文档(document-oriented)的数据库。
+    MongoDB中也没有预定义模式(predefined schema)：文档键值的类型和大小不是固定的。
+    

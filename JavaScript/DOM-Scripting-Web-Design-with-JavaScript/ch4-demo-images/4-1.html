@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset="utf-8">
+    <meta name='viewport' content="width=device-width">
+    <title>Image Gallery</title>
+    <!-- <link rel='stylesheet' href='example.css' media='screen' /> -->
+</head>
+<body>
+    <h1>Snapshots</h1>
+    <ul>
+        <li>
+            <a href='C:\Users\ee\Pictures\keyboard.jpg'
+               title='microsoft sculpt keyborad'
+               onclick='showPic(this); return false'>
+                Microsoft sculpt keyborad
+            </a>
+        </li>
+        <li>
+            <a href='C:\Users\ee\Pictures\mouse.jpg'
+               title='micorsoft sculpt mouse'
+               onclick='showPic(this); return false'>
+                Microsoft sculpt mouse
+            </a>
+        </li>
+        <li>
+            <a href='http://www.example.com' 
+               onclick='return false'>
+                Click me
+            </a>
+        </li>
+    </ul>
+    
+    <img id='placeholder' src='images/placeholder.gif' alt='my image gallery'/>
+    <p id='description'>Choose an image.</p>
+
+    <style>
+        @import url('example.css')
+    </style>
+    <script src='example.js'></script>
+</body>
+</html>

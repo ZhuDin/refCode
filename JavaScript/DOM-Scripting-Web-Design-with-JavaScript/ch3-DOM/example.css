@@ -1,0 +1,24 @@
+p {
+    color: green;
+    font-family: 'arial', sans-serif;
+    font-size: 1.2em;
+}
+body {
+    color: white;
+    background-color: grey;
+}
+.special {
+    font-style: italic;
+}
+h2.special {
+    text-transform: uppercase;
+}
+#purchases {
+    border: 1px solid blue;
+    background-color: #555;
+    color: red;
+    padding: 2em;
+}
+#purchases li {
+    font-weight: bold;
+}

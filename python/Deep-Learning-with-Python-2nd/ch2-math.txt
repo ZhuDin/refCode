@@ -1,0 +1,8 @@
+第2章 神经网络的数学基础
+
+    要理解深度学习，需要熟悉很多简单的数学概念：张量(tensor)、张量运算
+(tensor operation)、微分(differentiation)、梯度下降(gradient descent)等。
+
+2.1 初识神经网络
+
+    
