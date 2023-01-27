@@ -1,0 +1,43 @@
+第14章 DOM
+
+    文档对象模型(DOM, Document Object Model)是HTML和XML文档的编程接口。DOM表示
+由多层节点构成的文档，通过它开发者可以添加、删除和修改页面的各个部分。
+
+14.1 节点层级
+
+    任何HTML或XML文档都可以用DOM表示为一个由节点构成的层级结构。
+
+14.1.1 Node类型
+
+    DOM Level 1描述了名为Node的接口，这个接口是所有DOM节点类型都必须实现的。
+Node接口在JavaScript中被实现为Node类型。在JavaScript中，所有节点类型都继承Node
+类型，因此所有类型都共享相同的基本属性和方法。
+
+    每个节点都有nodeType属性，表示该节点的类型。节点类型由定义在Node类型上的
+12个数值常量表示：
+
+    ·Node.ELEMENT_NODE          (1)
+
+    ·Node.ATTRIBUTE_NODE        (2)
+
+    ·Node.TEXT_NODE             (3)
+
+    ·Node.CDATE_SECTION_NODE    (4)
+
+    ·Node.ENTITY_REFERENCE_NODE (5)
+
+    ·Node.ENTITY_NODE           (6)
+
+    ·Node.PROCESSING_INSTRUCTION_NODE   (7)
+
+    ·Node.COMMENT_NODE          (8)
+
+    ·Node.DOCUMENT_NODE         (9)
+
+    ·Node.DOCUMENT_TYPE_NODE    (10)
+
+    ·Node.DOCUMENT_FRAGMENT_NODE(11)
+
+    ·Node.NOTATION_NODE         (12)
+
+--------------------------------------------------------------------------------
