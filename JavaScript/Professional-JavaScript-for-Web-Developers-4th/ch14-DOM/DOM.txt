@@ -41,3 +41,74 @@ Node接口在JavaScript中被实现为Node类型。在JavaScript中，所有节�
     ·Node.NOTATION_NODE         (12)
 
 --------------------------------------------------------------------------------
+14.1.2 Document类型
+
+    Document类型是JavaScript中表示文档节点的类型。在浏览器中，文档对象docuemnt
+是HTMLDocument的实例，表示整个HTML页面。document是window对象的属性，因此是一个
+全局对象。
+
+14.1.3 Element类型
+
+    Element表示XML或html元素，对外暴露出访问元素标签名、子节点和属性的能力。
+
+14.1.4 Text类型
+
+    Text节点由Text类型表示，包含按字面解释的纯文本，了可能包含转义后的HTML字符，
+但不含HTML代码。
+
+    Text节点中包含的文本可以通过nodeValue属性访问，也可以通过data属性访问，这两
+个属性包含相同的值。也会在另一个属性反映出来。文本节点暴露了以下操作文本的方法：
+
+    ·appendData(text)，向节点末尾添加文本text；
+
+    ·deleteData(offset，count)，从位置offset开始删除count个字符；
+
+    ·insertData(offset, text)，在位置offset插入text；
+
+    ·replaceData(offset, count, text)，用text替换从位置offset到offset+count的
+      文本；
+
+    ·splitText(offset)，在位置offset将当前文本节点拆分为两个文本节点；
+
+    ·substringData(offset, count)，提取从位置offset到offset+count的文本。
+
+    除了以上方法，还可通过length属性获取文本节点中包含的字符数量。这个值等于
+nodeValue.length和data.length。
+
+14.1.5 Comment类型
+
+    DOM中的注释通过Comment类型表示。
+
+14.1.6 CDATASection类型
+
+    CDATASection类型表示XML中特有的CDATA区块。
+
+14.1.7 DocumentType类型
+
+    DocumentType类型的节点包含文档的文档类型(doctype)信息。
+
+14.1.8 DocumentFragment类型
+
+14.1.9 Attr类型
+
+--------------------------------------------------------------------------------
+14.2 DOM编程
+
+14.2.1 动态脚本
+
+    <script>元素用于向网页中插入JavaScript代码，可以是src属性包含的外部文件，也
+可以是作为该元素内容的源代码。
+
+14.2.2 动态样式
+
+    CSS样式在HTML页面中可以通过两个元素加载。<link>元素用于包含CSS外部文件，而
+<style>元素用于添加嵌入样式。
+
+14.2.3 操作表格
+
+14.2.4 使用NodeList
+
+--------------------------------------------------------------------------------
+14.3 MutationObserver接口
+
+    
