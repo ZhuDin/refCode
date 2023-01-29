@@ -1,5 +1,49 @@
 CHAPTER 2 Chemical Components of Cells
 
+CHEMICAL BONDS
+
+    Cells Are Made of Relatively Few Types of Atoms
+
+    The Outermost Electrons Determine How Atoms Interact
+
+    Covalent Bonds Forms by the Sharing of Electrons
+
+    Some Covalent Bonds Involve More Than One Electron Pair
+
+    Electrons in Covalent Bonds Are Often Shared Unequally
+
+    Covalent Bonds Are Strong Enought to Survive the Conditions Inside Cells
+
+    Ionic Bonds Form Are Important Noncovalent Bonds for Many Biological 
+    Molecules
+
+    Four Types of Weak Interactions Help Bring Molecules Together in Cells
+
+    Some Polar Molecules Form Acids and Bases in Water
+
+SMALL MOLECULES IN CELLS
+
+    A Cell Is Formed from Carbon Compounds
+
+    Cells Contain Four Major Families of Small Organic Molecules
+
+    Sugars Are both Energy Sources and Subunits of Polysaccharides
+
+    Fatty Acids Are the Subunits of Proteins
+
+    Nucleotides Are the Subunits of DNA and RNA
+
+MACROMOLECULES IN CELLS
+
+    Each Macromolecule Contains a Specific Sequence of Subunits
+
+    Noncovalent Bonds Specify the Precise Shape of a Macromolecule
+
+    Noncovalent Bonds Allow a Macromolecule to Bind Other Selected Molecules
+
+ESSENTIAL CONCEPTS
+
+-------------------------------------------------------------------------------
 TABLE 2-1   Length and Strength of Some Chemical Bonds
 
 TABLE 2-2   The Chemical Composition of a Bacterial Cell
