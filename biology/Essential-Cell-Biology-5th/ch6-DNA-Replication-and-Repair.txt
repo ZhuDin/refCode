@@ -1,5 +1,48 @@
 CHAPTER 6 DNA Replication and Repair
 
+DNA REPLICATION
+
+    Base-Pairing Enables DNA Replication
+
+    DNA Synthesis Begins at Replication Origins
+
+    Two Replication Forks Form at Each Replication Origin
+
+    DNA Polymerase Synthesizes DNA Using a Parental Strand as a Template
+
+    The Replication Fork Is Asymmetrical
+
+    DNA Polymerase Is Self-correcting
+
+    Short Lengths of RNA Act as Primers for DNA Synthesis
+
+    Proteins at a Replication Fork Cooperate to Form a Replication Machine
+
+    Telomerase Replicates the Ends of Eukaryotic Chromosomes
+
+    Telomere Length Varies by Cell Type and with Age
+
+DNA REPAIR
+
+    DNA Damage Occurs Continually in Cells
+
+    Cells Possess a Variety of Mechanisms for Repairing DNA
+
+    A DNA Mismatch Repair System Removes Replication Errors That Escape 
+    Proofreading
+
+    Double-Strand DNA Breaks Require a Different Strategy for Repair
+
+    Homologous Recombination Can Flawlessly Repair DNA Double-Strand Breaks
+
+    Failure to Repair DNA Damage Can Have Severe Consequences for a Cell or
+    Organism
+
+    A Record of the Fidelity of DNA Replication and Repair Is Preserved in
+    Genome Sequences
+
+ESSENTIAL CONCEPTS
+
 How We Know: The Nature of Replication
 
 TABLE 6-1   Proteins Involved in DNA Replication
