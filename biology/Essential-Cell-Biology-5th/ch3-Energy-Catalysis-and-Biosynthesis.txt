@@ -1,5 +1,65 @@
 CHAPTER 3 Energy, Catalysis, and Biosynthesis
 
+THE USE OF ENERGY BY CELLS
+
+    Biological Order Is Made Possible by the Release of Heat Energy from Cells
+
+    Cells Can Convert Energy from One Form to Another
+
+    Photosynthetic Organisms Use Sunlight to Synthesize Organic Molecules
+
+    Cells Obtain Energy by the Oxidation of Organic Molecules
+
+    Oxidation and Reduction Involve Electron Transfers
+
+FREE ENERGY AND CATALYSIS
+
+    Chemical Reactions Proceed in the Direction That Causes a Loss of Free
+    Energy
+
+    Enzymes Reduce the Energy Needed to Initiate Spontaneous Reactions
+
+    The Free-Energy Change for a Reaction Determines Whether It Can Occur
+
+    △G Changes as a Reaction Proceeds Toward Equilibrium
+
+    The Standard Free-Energy Change, △G°, Makes It Possible to Compare the 
+    Energetics of Different Reactions
+
+    The Equilibrium Constant Is Directly Proportional to △G°
+
+    In Complex Reactions, the Equlibrium Constant Includes the Concentrations
+    of All Reactants and Products
+
+    The Equilibrium Constant Also Indicates the Strength of Noncovalent
+    Binding Interactions
+
+    For Sequential Reactions, the Changes in Free Energy Are Additive
+
+    Enzyme-catalyzed Reactions Depend on Rapid Molecular Collisions
+
+    Noncovalent Interactions Allow Enzymes to Bind Specific Molecules
+
+ACTIVATED CARRIERS AND BIOSYNTHESIS
+
+    The Formation of an Activated Carrier Is Coupled to an Energetically 
+    Favorable Reaction
+
+    ATP Is the most Widely Used Activated Carrier
+
+    Energy Stored in ATP Is Often Harnessed to Join Two Molecules Together
+
+    NADH and NADPH Are Both Activated Carriers of Electrons
+
+    NADPH and NADH Have Different Roles in Cells
+
+    Cells Make Use of Many Other Activated Carriers
+
+    The Synthesis of Biological Polymers Requires an Energy Input
+
+ESSENTIAL CONCEPTS
+
+-------------------------------------------------------------------------------
 PANEL 3-1   Free Enery and Biological Reactions
 
 TABLE 3-1   Relationship Between the Standard Free-Energy Change, △G⏒, and the 
