@@ -1,5 +1,93 @@
 CHAPTER 4 Protein Structure and Function
 
+THE SHAPE AND STRUCTURE OF PROTEINS
+
+    The Shape of a Protein Is Specified by Its Amino Acid Sequence
+
+    Proteins Fold into a Conformation of Lowest Energy
+
+    Proteins Come in a Wide Variety of Complicated Shapes
+
+    The ɑ Helix and the ß Sheet Are Common Folding Patterns
+
+    Helices Form Readily in Biological Structures
+
+    ß Sheets Form Regid Structures at the Core of Mnay Proteins
+
+    Misfolded Proteins Can Form Amyloid Structures That Cause Disease
+
+    Proteins Have Several Levels of Organization
+
+    Proteins Also Contain Unstructured Regions
+
+    Few of the Many Possible Polypeptide Chains Will Be Useful
+
+    Proteins Can Be Classified into Families
+
+    Large Protein Molecules Often Contain More than One Polypeptide Chain
+
+    Proteins Can Assemble into Filaments, Sheets, or Spheres
+
+    Some Types of Proteins Have Elongated Fibrous Shapes
+
+    Extracellular Proteins Are Often Stabilized by Covalent Cross-Linkages
+
+HOW PROTEINS WORK
+
+    All Proteins Bind to Other Molecules
+
+    Humans Produce Billions of Different Antibodies, Each with a Different 
+    Binding Site
+
+    Enzymes Are Powerful and Highly Specific Catalysts
+
+    Enzymes Greatly Accelerate the Speed of Chemical Reactions
+
+    Lysozyme Illustrates How an Enzyme Works
+
+    Many Drugs Inhibit Enzymes
+
+    Tightly Bound Small Molecules Add Extra Functions to Proteins
+
+HOW PROTEINS ARE CONTROLLED
+
+    The Catalytic Activities of Enzymes Are Often Regulated by Other Molecules
+
+    Allosteric Enzymes Have Two or More Binding Sites That Influence One Another
+
+    Phosphorylation Can Control Protein Activity by Causing a Conformational
+    Change
+
+    Covalent Modifications Also Control the Location and Interaction of Proteins
+
+    Regulatory GTP-Binding Proteins Are Switched On and Off by the Gain and Loss
+    of a Phosphate Group
+
+    ATP Hydrolysis Allows Motor Proteins to Produce Directed Movements in Cells
+
+    Proteins Often Form Large Complexes That Function as Machines
+
+    Many Interacting Proteins Are Brought Together by Scaffolds
+
+    Weak Interactions Between Macromolecules Can Produce Large Biochemical 
+    Subcompartments in Cells
+
+HOW PROTEINS ARE STUDIED
+
+    Proteins Can Be Purified from Cells or Tissues
+
+    Determining a Protein's Structure Begins with Determining Its Amino Acid
+    Sequence
+
+    Genetic Engineering Techniques Permit the Large-Scale Production, Design,
+    and Analysis of Almost Any Protein
+
+    The Relatedness of Proteins Aids the Prediction of Protein Structure and 
+    Function
+
+ESSENTIAL CONCEPTS
+
+-------------------------------------------------------------------------------
 PANEL 4-1   A Few Examples of Some General Protein Functions
 
 PANEL 4-2   Making and Using Antibodies
