@@ -1,3 +1,62 @@
 CHAPTER 8 Control of Gene Expression
 
+AN OVERVIEW OF GENE EXPRESSION
+
+    The Different Cell Types of a Multicellular Organis Contains the Same DNA
+
+    Different Cell Types Produce Different Sets of Proteins
+
+    A Cell Can Change the Expression of Its Genes in Response to External 
+    Signals
+
+    Gene Expression Can be Regulated at Various Steps from DNA to RNA to Protein
+
+HOW TRANSCRIPTION IS REGULATED
+
+    Transcription Regulators Bind to Regulatory DNA Sequences
+
+    Transcription Switches Allow Cells to Respond to Changes in Their
+    Environment
+
+    Repressors Turn Genes Off and Activators Turn Them On 
+
+    The Lac Operon Is Controlled by an Activator and a Repressor
+
+    Eukaryotic Transcription Regulators Control Gene Expression from a Distance
+
+    Eukaryotic Transcription Regulators Help Initiate Transcription by 
+    Recruiting Chromatin-Modifying Proteins
+
+    The Arrangement of Chromosomes into Looped Domains Keeps Enhancers in Check
+
+GENERATING SPECIALIZED CELL TYPES
+
+    Eukaryotic Genes Are Controlled by Combinations of Transcription Regulators
+
+    The Expression of Different Genes Can Be Coordinated by a Single Protein
+
+    Combinatorial Control Can Also Generate Different Cell Types
+
+    The Formation of an Entire Organ Can Be Triggered by a Single Transcription
+    Regulator
+
+    Transcription Regulators Can Be Used to Experimentally Direct the Formation
+    of Specific Cell Types in Culture
+
+    Differentiated Cells Maintain Their Identity
+
+POST-TRANSCRIPTIONAL CONTROLS
+
+    mRNAs Contains Sequences That Control Their Translation
+
+    Regulatory RNAs Control the Expression of Thousands of Genes
+
+    MicroRNAs Direct the Destruction of Target mRNAs
+
+    Small Interfering RNAs Protect Cells From Infections
+
+    Thousands of Long Noncoding RNAs May Also Regulate Mammalian Gene Activity
+
+ESSENTIAL CONCEPTS
+
 How We Know: Gene Regulation--The Story of Eve
