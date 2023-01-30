@@ -1,5 +1,68 @@
 CHAPTER 9 How Genes and Genomes Evolve
 
+GENERATING GENTETIC VARIATION
+
+    In Secually Reproducing Organisms, Only Changes to the Germ Line Are Passed
+    On to Progeny
+
+    Point Mutations Are Caused by Failures of the Normal Mechanisms
+    for Copying and Repairing DNA
+
+    Mutations Can Also Change the Regulation of a Gene
+
+    DNA Duplications Give Rise to Families of Related Genes
+
+    Duplication and Divergence Produced the Globin Gene Family
+
+    Whole-Genome Duplications Have Shaped the Evolutionary History of Many 
+    Species
+
+    Novel Genes Can Be Created by Exon Shuffling
+
+    The Evolution of Genomes Has Been Profoundly Influenced by Mobile Genetic
+    Elements
+
+    Genes Can Be Exchanged Between Organisms by Horizontal Gene Transfer
+
+RECONSTRUCTING LIFE'S FAMILY TREE
+
+    Genetic Changes That Provide a Selective Advantage Are Likely to Be 
+    Preserved
+
+    Closely Related Organisms Have Genomes That Are Similar in Organization
+    as Well as Sequence
+
+    Functionally Important Genome Regions Show Up as Islands of Conserved DNA
+    Sequence
+
+    Genome Comparisons Show That Vertebrate Genomes Gain and Lose DNA Papidly
+
+    Sequence Conservation Allows Us to Trace Even the Most Distant Evolutionary
+    Relationships
+
+MOBILE GENETIC ELEMENTS AND VIRUSES
+
+    Mobile Genetic Elements Encode the Comonents They Need for Movement
+
+    The Human Genome Contains Two Major Families of Transposable Sequences
+
+    Viruses Can Move Between Cells and Organisms
+
+    Retroviruses Reverse the Normal Flow of Genetic Information
+
+EXAMINING THE HUMAN GENOME
+
+    The Nucleotide Sequences of Human Genomes Show How Our Genes Are Arranged
+
+    Differences in Gene Regulation May Help Explain How Animals with Similar
+    Genomes Can Be So Different
+
+    The Genome of Extinct Neanderthals Reveals Much about What Makes Us Human
+
+    Genome Variation Contributes to Our Individuality--But How?
+
+ESSENTIAL CONCEPTS
+
 TABLE 9-1   Viruses That Cause Human Disease
 
 TABLE 9-2   Some Vital Statistics for the Human Genome
