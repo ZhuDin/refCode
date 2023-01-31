@@ -1,3 +1,40 @@
 第16章 DOM2和DOM3
 
-    
+    DOM1(DOM Level 1)主要定义了HTML和XML文档的底层结构。DOM2(DOM Level 2)和
+DOM(DOM Level 3)在这些结构之上加入更多交互能力，提供了更高级的XML特性。实际上，
+DOM2和DOM3是按照模块化的思路来制定标准的，每个模块之间有一定关联，但分别针对某
+个DOM子集。模块如下：
+
+    ·DOM Core:在DOM1核心部分的基础上，为节点增加方法和属性
+
+    ·DOM Views:定义基于样式信息的不同视图
+
+    ·DOM Events:定义通过事件实现DOM文档交互
+
+    ·DOM Style:定义以编程方式访问和修改CSS样式的接口
+
+    ·DOM Traversal and Range:新增遍历DOM文档及选择文档内容的接口
+
+    ·DOM HTML:在DOM1 HTML部分的基础上，增加属性、方法和接口
+
+    ·DOM Mutation Observers:定义基于DOM变化触发回调的接口
+
+--------------------------------------------------------------------------------
+16.1 DOM的演进
+
+    DOM2和DOM3 Core模块的目标是扩展DOM API，满足XML的所有需求并提供更好的错误
+处理和特性检测。
+
+16.1.1 XML命名空间
+
+16.2 样式
+
+    HTML中的样式有3种定义：外部样式表（通过<link>元素）、文档样式表（使用<style>
+元素）和元素特定样式（使用style属性）。
+
+16.3 遍历
+
+    DOM2 Traversal and Range模块定义了两个类型用于辅助顺序遍历DOM结构。这两个
+类型——NodeIterator和TreeWalker——从某个起点开始执行对DOM结构的深度优先遍历。
+
+16.4 范围
