@@ -1,5 +1,87 @@
 CHAPTER 12 Transport Across Cell Membranes
 
+PRINCIPLES OF TRANSMEMBRANE TRANSPORT
+
+    Lipid Bilayers Are Impereable to Ions and Most Uncharged Polar Molecules
+
+    The Ion Concentrations Inside a Cell Are Very Different from Those
+    Outside
+
+    Differences in Concentration of Inorganic Ions Across a Cell Membrane
+    Create a Membrane Potential
+
+    Cells Contain Two Classes of Membrane Transport Proteins: Transports and
+    Channels
+
+    Solutes Cross Membranes by Either Passive or Active Transport
+
+    Both the Concentration Gradient and Membrane Poteintial Influence the 
+    Passive Transport of Charged Solutes
+
+    Water Moves Across Cell Membranes Down Its Concentration Gradient--a
+    Process Called Osmosis
+
+TRANSPORTERS AND THEIR FUNCTIONS
+
+    Passive Trnasporters Move a Solute Along Its Electrochemical Gradient
+
+    Pumps Actively Transport a Solute Against Its Electrochemical Gradient
+
+    The Na+ Pump in Animal Cells Uses Energy Supplied by ATP to Expel Na+ and
+    Bring in K+
+
+    The Na+ Pumb Generates a Steep Concentration Gradient of Na+ Across the 
+    Plasma Membrane
+
+    Ca<2+> Pumps Keep the Cytosolic Ca<2+> Concentration Low
+
+    Gradient-driven Pumps Exploit Solute gradients to Mediate Active Transport
+
+    The Electrochemical Na+ Gradient Drives the Transport of Glucose Across
+    the Plasma Membrane of Animal Cells
+
+    Electrochemical H+ Gradients Drive the Transport of Solutes in Plants, 
+    Fungi, and Bacteria
+
+ION CHANNELS AND THE MEMBRANE POTENTIAL
+
+    Ion Channels Are Ion-selective and Gated
+
+    Membrane Potential Is Governed by the Permeability of a Membrane to 
+    Specific Ions
+
+    Ion Channels Randomly Snap Between Open and Closed States
+
+    Different Types of Stimuli Influence the Opening and Closing of Ion Channels
+
+    Voltage-gated Ion Channels Respond to the Membrane Potential
+
+ION CHANNELS AND NERVE CELL SIGNALING
+
+    Action Potentials Allow Rapid Long-Distance Communication Along Axons
+
+    Aciton Potentials Are Mediated by Voltage-gated Cation Channels
+
+    Voltage-gated Ca<2+> Channels in Nerve Terminals Convert an Electrical 
+    Signal into a Chemical Signal
+
+    Transmitter-gated Ion Channels in the Postsynaptic Membrane Convert the 
+    Chemical Signal Back into an Electrical Signal
+
+    Neurotransmitters Can Be Excitatory or Inhibitory
+
+    Most Psychoactive Drugs Affect Synaptic Signaling by Binding to 
+    Neurotransmitter Receptors
+
+    The Complexity of Synaptic Signaling Enables Us to Think, Act, Learn, and 
+    Remember
+
+    Light-gated Ion Channels Can Be Used to Transiently Activate or Inactivate
+    Neurons in Living Animals
+
+ESSENTIAL CONCEPTS
+
+--------------------------------------------------------------------------------
 TABLE 12-1  A Comparison of Ion Concentrations Inside and Outside a Typical 
             Mammalian Cell
 
