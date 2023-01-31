@@ -1,5 +1,66 @@
 CHAPTER 15 Intracellular Compartments and Protein Transport
 
+MEMBRANE-ENCLOSED ORGANELLES
+
+    Eukayotic Cells Contain a Basic Set of Membrane-enclosed Organelles
+
+    Membrane-enclosed Organelles Evolved in Different Ways
+
+PROTEIN SORTING
+
+    Proteins Are Transported into Organelles by Three Mechanisms
+
+    Signal Sequences Direct Proteins to the Correct Compartment
+
+    Proteins Enter the Nucleus Through Nuclear Pores
+
+    Proteins Unfold to Enter Mitochondria and Chloroplasts
+
+    Proteins Enter Peroxisomes from both the Cytosol and the Endoplasmic 
+    Reticulum
+
+    Proteins Enter the Endoplasmic Reticulum While Being Synthesized
+
+    Soluble Proteins Made on the EP Are Released into the ER Lumen
+
+    Start and Stop Signals Determine the Arrangement of a Transmembrane Protein
+    in the Lipid Bilayer
+
+VESICULAR TRANSPORT
+
+    Transport Vesicles Carry Soluble Proteins and Membrane Between Compartments
+
+    Vesicle Budding Is Driven by the Assembly of a Protein Coat
+
+    Vesicle Docking Depends on Tethers and SNAREs
+
+SECRETORY PATHWAYS
+
+    Most Proteins Are Covalently Modified in the ER
+
+    Exit from the ER Is Controlled to Ensure Protein Quality
+
+    The Size of the ER Is Controlled by the Demand for Protein Folding
+
+    Proteins Are Further Modified and Sorted in the Golgi Apparatus
+
+    Secretory Proteins Are Released from the Cell by Exocytosis
+
+ENDOCYTIC PATHWAYS
+
+    Specialized Phagocytic Cells Ingest Large Particles
+
+    Fluid and Macromolecules Are Taken Up by Pinocytosis
+
+    Recepto-mediated Endocytosis Provides a Specific Route into Animal Cells
+
+    Endocytosed Macromolecules Are Sorted in Endosomes
+
+    Lysosomes Are the Pricipal Sites of Intracellular Digestion
+
+ESSENTIAL CONCEPTS
+
+--------------------------------------------------------------------------------
 TABLE 15-1  The Main Functions of Membrane-enclosed Organelles of a Eukaryotic
             Cell
 
