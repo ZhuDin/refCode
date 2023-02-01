@@ -1,5 +1,69 @@
 CHAPTER 16 Cell Signaling
 
+GENEAL PRINCIPLES OF CELL SIGNALING
+
+    Signals Can Act over a Long or Short Range
+
+    A Limited Set of Extracellular Signals Can Produce a Huge Variety of 
+    Cell Behaviors
+
+    A Cell's Response to a Signal Can Be Fast or Slow
+
+    Cell-Surface Receptors Relay Extracellular Signals via Intracellular 
+    Signaling Pathways
+
+    Some Intracellular Signaling Proteins Act as Molecular Switches
+
+    Cell-Surface Receptors Fall into Three Main Classes
+
+    Ion-Channel-Coupled Receptors Convert Chemical Signals into Electrical Ones
+
+G-PROTEIN-COUPLED RECEPTORS
+
+    Stimulation of GPCRs Activates G-Protein Subunits
+
+    Some Bacterial Toxins Cause Disease by Altering the Activity of G Proteins
+
+    Some G Proteins Directly Regulate Ion Channels
+
+    Many G Proteins Activate Membrane-bound Enzymes That Produce Samll
+    Messenger Molecules
+
+    The Cyclic AMP Signaling Pathway Can Activate Enzymes and Turn On Genes
+
+    The Inositol Phospholipid Pathway Triggers a Rise in Intracllular Ca<2+>
+
+    A Ca<2+> Signal Triggers Many Biological Processes
+
+    A GPCR Signaling Pathway Generates a Dissolved Gas That Carries a Signal
+    to Adjacent Cells
+
+    GPCR-Triggered Intracellular Signaling Cascades Can Achieve Astonishing
+    Speed, Sensitivity, and Adaptability
+
+ENZYME-COUPLED RECEPTORS
+
+    Activated RTKs Recruit a Complex lf Intracellular Signaling Proteins
+
+    Most RTKs Activate the Monomeric GTPase Ras
+
+    RTKs Activate PI 3-Kinase to Produce Lipid Docking Sites in the Plasma
+    Membrane
+
+    Some Receptors Activate a Fast Track to the Nucleus
+
+    Some Extracellular Signal Molecules Cross the Plasma Membrane and Bind to 
+    Intracellur Receptors
+
+    Plant Make Use of Receptors and Signaling Strategies That Differ from Those
+    Used by Animals
+
+    Protein Kinase Networks Integrate Information to Control Complex Cell 
+    Behaviors
+
+ESSENTIAL CONCEPTS
+
+--------------------------------------------------------------------------------
 TABLE 16-1  Some Examples of Signal Molecules
 
 TABLE 16-2  Some Foreign Substances That Act on Cell-Surface Receptors
