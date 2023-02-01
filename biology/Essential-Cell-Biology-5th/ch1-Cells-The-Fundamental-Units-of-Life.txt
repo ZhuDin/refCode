@@ -21,46 +21,46 @@ CELLS UNDER THE MICROSCOPE
 
     The Fine Structure of a Cell Is Revealed by Electron Microscopy
 
-The PROKARYOTIC CELL
+The PROKARYOTIC(原核) CELL
 
-    Prokaryotes Are the Most Diverse and Numerous Cells on Earth
+    Prokaryotes(原核细胞) Are the Most Diverse and Numerous Cells on Earth
 
     The World of Prokaryotes Is Divided into Two Domains: Bacteria and Archaea
 
-THE EUKARYOTIC CELL
+THE EUKARYOTIC(真核) CELL
 
     The Nucleus Is the Information Store of the Cell
 
-    Mitochondria Generate Usable Energy from Food Molecules
+    Mitochondria(线粒体) Generate Usable Energy from Food Molecules
 
-    Chloroplasts Capture Energy from Sunlight
+    Chloroplasts(叶绿体) Capture Energy from Sunlight
 
-    Internal Membranes Create Instracellular Compartments with Different 
+    Internal Membranes(内膜) Create Instracellular Compartments with Different 
     Fuctions
 
-    The Cytosol Is a Concentrated Aqueous Gel of Large and Small Molecules
+    The Cytosol(胞液) Is a Concentrated Aqueous Gel of Large and Small Molecules
 
-    The Cytoskeleton Is Responsible for Directed Cell Movements
+    The Cytoskeleton(细胞骨架) Is Responsible for Directed Cell Movements
 
     The Cytosol Is Far from Static
 
-    Eukaryotic Cells May Have Originated as Predators
+    Eukaryotic(真核) Cells May Have Originated as Predators(吞噬体)
 
 MODEL ORGANISMS
 
     Molecular Biologists Have Focused on E. coli
 
-    Brewer's Yeast Is a Simple Eukaryote
+    Brewer's Yeast(酵母菌) Is a Simple Eukaryote(真核生物)
 
-    Arabidopsis Has Been Chosen as a Model Plant
+    Arabidopsis(拟南芥属) Has Been Chosen as a Model Plant
 
-    Model Animals Include Flies, Worms, Fish, and Mice
+    Model Animals Include Flies(蝇类), Worms, Fish, and Mice
 
     Biologists Also Directly Study Humans and Their Cells
 
     Comparing Genome Sequences Reveals Life's Common Heritage
 
-    Genomes Contain More Then Just Genes
+    Genomes(基因组) Contain More Then Just Genes
 
 ESSENTIAL CONCEPTS
 
