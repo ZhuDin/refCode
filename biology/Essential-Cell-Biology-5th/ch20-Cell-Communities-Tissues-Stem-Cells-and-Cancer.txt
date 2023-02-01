@@ -1,5 +1,74 @@
 CHAPTER 20 Cell Communities: Tissues, Stem Cells, and Cancer
 
+EXTRACELLULAR MATRIX AND CONNECTIVE TISSUES
+
+    Plant Cells Have Tough External Walls
+
+    Cellulose Microfibrils Give the Plant Cell Wall Its Tensile Strength
+
+    Animal Connective Tissues Consist Largely of Extracellular Matrix
+
+    Collagen Provides Tensile Strength in Animal Connective Tissues
+
+    Cells Organize the Collagne They Secrete
+
+    Integrins Couple the Matrix Outside a Cell to the Cytoskeleton Inside it
+
+    Gels of Polysaccharides and Proteins Fill Spaces and Resist Compression
+
+EPITHELIAL SHEETS AND CELL JUNCTIONS
+
+    Epithelial Sheets Are Polarized and Rest on a Basal Lamina
+
+    Tight Junctions Make an Epithelium Leakproof and Separate Its Apical and
+    Basolateral Surfaces
+
+    Cytoskeleton-linked Junctions Bind Epithelial Cells Robustly to One 
+    Another and to the Basal Lamina
+
+    Gap Junctions Allow Cytosolic Inorganic Ions and Small Molecules to Pass
+    from Cell to Cell
+
+STEM CELLS AND TISSUE RENEWAL
+
+    Tissues Are Organized Mixtures of Many Cell Types
+
+    Different Tissues Are Renewed at Different Rates
+
+    Stem Cells and Proliferating Precursor Cells Generate a Continuous Supply
+    of Terminally Differentiated Cells
+
+    Specific Signals Maintain Stem-Cell Populations
+
+    Stem Cells Can Be Used to Repair Lost or Damaged Tissues
+
+    Induced Pluripotent Stem Cells Provide a Convenient Source of Human ES-like
+    Cells
+
+    Mouse and Human Pluripotent Stem Cells Can Form Organoids in Culture
+
+CANCER
+
+    Cancer Cells Proliferate Excessively and Migrate Inappropriately
+
+    Epidemiological Studies Identify Preventable Causes of Cancer
+
+    Cancers Develop by an Accumulation of Somatic Mutations
+
+    Cancer Cells Evolve, Acquiring an Increasing Competitive Advantage
+
+    Two Main Classes of Genes Are Critical for Cancer: Oncogenes and Tumor
+    Suppressor Genes
+
+    Cancer-critical Mutations Cluster in a Few Fundamental Pathways
+
+    Colorectal Cancer Illustrates How Loss of a Tumor Suppressor Gene Can 
+    Lead to Cancer
+
+    An Understanding of Cancer Cell Biology Opens the Way to New Treatments
+
+ESSENTIAL CONCEPTS
+
 TABLE 20-1  A Variety of Factors Can Contribute to Genetic Instability
 
 TABLE 20-2  Examples of Cancer-critical Genes

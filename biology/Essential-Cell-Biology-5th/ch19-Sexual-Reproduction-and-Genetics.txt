@@ -1,5 +1,91 @@
 CHAPTER 19 Sexual Reproduction and Genetics
 
+THE BENEFITS OF SEX
+
+    Sexual Reproduction Involves both Diploid and Haploid Cells
+
+    Sexual Reproduction Generates Genetic Diversity
+
+    Sexual Reproduction Gives Organisms a Competitive Advantage in a 
+    Changing Environment
+
+MEIOSIS AND FERTILIZATION
+
+    Meiosis Involves One Round of DNA Replication Followed by Two Rounds of
+    Nuclear Division
+
+    Duplicated Homologous Chromosomes Pair During Meiotic Prophase
+
+    Crossing-Over Occurs Between the Duplicated Maternal and Paternal 
+    Chromosomes in Each Bivalent
+
+    Chromosome Pairing and Crossing-Over Ensure the Proper Segregation of 
+    Homologs
+
+    The Second Meiotic Division Produces Haploid Daughter Nuclei
+
+    Haploid Gametes Contain Reassorted Genetic Information
+
+    Meiosis Is Not Flawless
+
+    Fertilization Reconstitutes a Complete Diploid Genome
+
+MENDEL AND THE LAWS OF INHERITANCE
+
+    Mendel Studied Traits That Are Inherited in a Discrete Fashion
+
+    Mendel Disproved the Alternative Theories of Inheritance
+
+    Mendel's Experiments Revealed the Existence of Dominant and Recessive 
+    Alleles
+
+    Each Gamete Carries a Single Allele for Each Character
+
+    Mendel's Law of Segregation Applies to All Sexually Reproducing Organisms
+
+    Alleles for Different Traits Segregate Independently
+
+    The Behavior of Chromosomes During Meiosis Underlies Mendel's Laws of 
+    Inheritance
+
+    Genes That Lie on the Same Chromosome Can Segregate Independently by 
+    Crossing-Over
+
+    Mutations in Genes Can Cause a Loss of Function or a Gain of Function
+
+    Each of Us carries Many Potentially Harmful Recessive Mutations
+
+GENETICS AS AN EXPERIMENTAL TOOL
+
+    The Classical Genetic Approach Begins with Random Mutagenesis
+
+    Genetic Screens Identify Mutants Deficient in Specific Cell Processes
+
+    Conditional Mutants Permit the Study of Lethal Mutations
+
+    A Complementation Test Reveals Whether Two Mutations Are in the Same Gene
+
+EXPLORING HUMAN GENETICS
+
+    Linked Blocks of Polymorphisms Have Been Passed Down from Our Ancestors
+
+    Polymorphisms Provide Clues to Our Evolutionary History
+
+    Genetic Studies Aid in the Search for the Causes of Human Diseases
+
+    Many Severe, Rare Human Disease Are Caused by Mutations in Single Genes
+
+    Common Human Diseases Are Often Influenced by Multiple Mutations and 
+    Envrionmental Factors
+
+    Geneme-wide Association Studies Can Aid the Search for Mutations 
+    Associated with Disease
+
+    We Still Have Much to Learn about the Genetic Basis of Human Variation and
+    Disease
+
+ESSENTIAL CONCEPTS
+
 PANEL 19-1  Some Essentials of Classical Genetics
 
 How We Know: Using SNPs to Get a Handle on Human Disease

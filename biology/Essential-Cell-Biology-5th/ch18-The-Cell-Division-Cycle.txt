@@ -1,5 +1,112 @@
 CHAPTER 18 The Cell-Division Cycle
 
+OVERVIEW OF THE CELL CYCLE
+
+    The Eukaryotic Cell Cycle Usually Includes Four Phases
+
+    A Cell-Cycle Control System Triggers the Major Processes of the Cell Cycle
+
+    Cell-Cycle Control Is Similar in All Eukaryotes
+
+THE CELL-CYCLE CONTROL SYSTEM
+
+    The Cell-Cycle Control System Depends on Cyclically Activated Protein
+    Kinases Called Cdks
+
+    Different Cyclin-Cdk Complexes Trigger Different Steps in the Cell Cycle
+
+    Cyclin Concentrations Are Regulated by Transcription and by Proteolysis
+
+    The Activity of Cyclin-Cdk Complexes Depends on Phosphorylation and
+    Dephosphorylation
+
+    Cdk Activity Can Be Blocked by Cdk Inhibitor Proteins
+
+    The Cell-Cycle Control System Can Pause the Cycle in Various Ways
+
+G[1] PHASE
+
+    Ckds Are Stably Inactivated in G[1]
+
+    Mitogens Promote the Production of the Cyclins That Stimulate Cell Division
+
+    DNA Damage Can Temporarily Half Progression Throught G[1]
+
+    Cells Can Delay Division for Prolonged Periods by Entering Specialized 
+    Nondividing States
+
+S PHASE
+
+    S-Cdk Initiates DNA Replication and Blocks Re-Replication
+
+    Incomplete Replication Can Arrest the Cell Cycle in G[2]
+
+M PHASE
+
+    M-Cdk Drives Entry into Mitosis
+
+    Cohesins and Condensins Help Configure Duplicated Chromosomes for 
+    Separation
+
+    Different Cytoskeletal Assemblies Carry Out Mitosis and Cytokinesis
+
+    M Phase Occurs in Stages
+
+MITOSIS
+
+    Centrosomes Duplicate to Help Form the Two Poles of the Mitotic Spindle
+
+    The Mitotic Spindle Starts to Assemble in Prophase
+
+    Chromosomes Attach to the Mitotic Spindle at Prometaphase
+
+    Chromosomes Assist in the Assembly of the Mitotic Spindle
+
+    Chromosomes Line Up at the Spindle Equator at Metaphase
+
+    Proteolysis Triggers Sister-Chromatid Separation at Anaphase
+
+    Chromosomes Segregate During Anaphase
+
+    An Unattached Chromosome Will Prevent Sister-Chromatid Separation
+
+    The Nuclear Envelope Re-forms at Telophase
+
+CYTOKINESIS
+
+    The Mitotic Spindle Determines the Plane of Cytoplasmic Cleavage
+
+    The Contractile Ring of Animal Cells Is Made of Actin and Myosin Filaments
+
+    Cytokinesis in Plant Cells Involves the Formation of a New Cell Wall
+
+    Membrane-enclosed Organelles Must Be Distributed to Daughter Cells When a
+    Cell Divides
+
+CONTROL OF CELL NUMBERS ADN CELL SIZE
+
+    Apoptosis Helps Regulate Animal Cell Numbers
+
+    Apoptosis Is Mediated by an Intracellular Proteolytic Cascade
+
+    The Intrinsic Apoptotic Death Program Is Regulated by the Bcl2 Family of
+    Intracellular Proteins
+
+    Apoptotic Signals Can Also Come from Other Cells
+
+    Animal Cells Require Extracellular Signals to Survive, Grow, and Divide
+
+    Survival Factors Suppress Apoptosis
+
+    Mitogens Stimulate Cell Division by Promoting Entry into S Phase
+
+    Growth Factors Stimulate Cells to Grow
+
+    Some Extracellular Signal Proteins Inhibit Cell Survival, Division, or 
+    Growth
+
+ESSENTIAL CONCEPTS
+
 TABLE 18-1  Some Eukaryotic Cell-Cycle Durations
 
 How We Know: Discovery of Cyclins and Cdks
