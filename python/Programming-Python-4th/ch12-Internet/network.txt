@@ -1,0 +1,96 @@
+第12章 网络脚本
+
+    互联网已从一个简单的主要由高校和研究人员使用的通信设备迅速成为几乎和电视与
+电话一样普遍的媒介。
+
+·Python互联网发展方案
+
+·探索互联网
+
+    从功能上讲，把互联网作为某一通信和信息媒介，通过交换电子邮件，浏览网页，传
+输文件等。从技术上讲，互联网由许多的抽象层和设备组成——在世界各地使用真实的电
+缆线发送比特流到网页浏览器上，抓住并提取这些比特流，在电脑上生成文件，图形和音
+频。
+
+    我们主要关注的是链接到互联网的程序员接中。这也由多层组成：套接字以及标准协
+议。
+
+·套接字层
+
+    套接字是用于程序之间连接的编程接口，可运行在网络中不同的计算机上。可让格式
+化数据作为字节字符串在进程和机器之间传递。
+
+机器标识符
+
+--------------------------------------------------------------------------------
+·协议层
+
+    端口号规则
+
+    套接字的端口号可以是0到65535之间任何16位的二进制码整数值。在0到1023之间的端
+口号被保留，预先分配给了更高层的标准协议。
+
+    通用协议的预留端口号
+
+    协议              常见功能        端口号     Python模块
+
+    HTTP            Web pages           80      http.client, http.server
+
+    NNTP            Usenet news         119     nntplib
+
+    FTP data default    File transfers  20      ftplib
+
+    FTP control     File transfers      21      ftplib
+
+    SMTP            Sending email       25      smtplib
+
+    POP3            Fetching email      110     poplib
+
+    IMAP4           Fetching email      143     imaplib
+
+    Finger          Informational       79      n/a
+
+    SSH             Command line        22      n/a; third party
+
+    Telnet          Command line        23      telnetlib
+
+    客户端和服务器
+
+--------------------------------------------------------------------------------
+·Python的网络库模块
+
+    常见互联网相关的标准模块
+
+    Python模块                功能
+
+    socket, ssl             网络和IPC通信支持，打包SSL安全套接字
+
+    cgi                     服务器端CGI脚本支持：解析输入流，转义HTML文本等
+
+    urllib.request          从地址(URL)获取网页
+
+    urllib.parse            解析URL网址字符串成不同部分，转义URL文本
+
+    http.client, ftplib     HTTP（网络），FTP（文本传输）客户端协议模块
+
+    nntplib                 NNTP（新闻）客户端协议模块
+
+    http.cookies,           HTTP cookies支持
+    http.cookiejar
+
+--------------------------------------------------------------------------------
+·套接字编程
+
+    Python的基本套接字接口是标准库的socket模块。除了基本的通信任务，socket模块
+还包括了更高级的工具。如：
+
+    - 转换字节为标准的网络序列(ntohl, htonl)
+
+    - 查询机器名称和地址(gethostname, gethostbyname)
+
+    - 在文件对象接口上封装套接字对象(sockobj.makefile)
+
+    - 使套接字调用处于非阻塞状态(sockobj.setblocking)
+
+    - 设置套接字超时设定(sockobj.settimeout)
+
