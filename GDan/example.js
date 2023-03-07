@@ -166,7 +166,14 @@ while (true) {
     break
 }
 
-// ----------------------------------------------------------------------------- 
+// --------------------------------------------------------------------------
+const timeID = document.getElementById('time')
+function currentTime() {
+    timeID.innerHTML = 'current time: ' + new Date()
+}
+setInterval(currentTime, 500)
+
+// --------------------------------------------------------------------------
 function addLoadEvent(func) {
     let oldonload = window.onload
     if (typeof window.onload != 'function') {
