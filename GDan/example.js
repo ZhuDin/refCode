@@ -167,6 +167,23 @@ while (true) {
 }
 
 // --------------------------------------------------------------------------
+const value_x     = document.getElementById("value-x")
+const value_x_add = document.getElementById("value-x-add")
+const value_x_pop = document.getElementById("value-x-pop")
+let value_x_childs = value_x.childNodes
+value_x_add.onclick = function() {
+    let valueX = document.createElement('input')
+    valueX.type = 'button'
+    valueX.value = 'x' + (value_x_childs.length - 1)
+    value_x.appendChild(valueX)
+}
+value_x_pop.onclick = function() {
+    if ((value_x_childs.length - 2) > 0) {
+        value_x.removeChild(value_x_childs[value_x_childs.length - 1])
+    }
+}
+
+// --------------------------------------------------------------------------
 const timeID = document.getElementById('time')
 function currentTime() {
     timeID.innerHTML = 'current time: ' + new Date()
