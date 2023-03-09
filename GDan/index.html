@@ -10,49 +10,57 @@
     <!-- <a href="C:/download/C.mp4" download="GDan.exe">download</a> -->
     Mark-up goes here...
     <form>
-        name:
-        <input type="text"><br>
-        ID:
-        <input type="text">
+        name:<input type="text" placeholder='please enter your name'>&nbsp
+        ID:  <input type="text" placeholder='please enter your id'>
     </form>
     <hr>
 <!--  -->
     <form id='value-x'>
-        <input type="button" value="x1">
+        <label><input type="button" value="x1"></label>
     </form>
-    <input type="button" id='value-x-add' value='+'>
-    <input type="button" id='value-x-pop' value='-'>
+    <label><input type="button" id='value-x-add' value='+'></label>
+    <label><input type="button" id='value-x-pop' value='-'></label>
     <hr>
 <!--  -->
+    <label>
+        max:<input type="radio" name="Z" value="max" id='z_max' checked >
+        min:<input type="radio" name="Z" value="min" id="z_min"><br>
+    </label>
+    <button type="button" id='value-z-max-min'>max</button>
+    z=
+    <button type="button" value="0" contenteditable="true">0</button>
+    <label>x<sub>1</sub></label>
+<!--  -->
+    <hr>
     <canvas id='drawing' width='200' height='200'>
         A drawing of something.
     </canvas>
     <hr>
 <!--  -->
     <div id="north">
-        <img class="north">
+        <img class="north" alt="">
     </div>
     <div>
         <div>
-            <img class="west" id='west'>
-            <img class="east" id='east'>
+            <img class="west" id='west' alt="">
+            <img class="east" id='east' alt="">
         </div>
     </div>
     <div id='south' title='south-player'>
-        <img class='south 1'  />  <img class='south 2'  />  
-        <img class='south 3'  />  <img class='south 4'  />  
-        <img class='south 5'  />  <img class='south 6'  />
-        <img class='south 7'  />  <img class='south 8'  />  
-        <img class='south 9'  />  <img class='south 10' />  
-        <img class='south 11' />  <img class='south 12' />
-        <img class='south 13' />  <img class='south 14' />  
-        <img class='south 15' />  <img class='south 16' />  
-        <img class='south 17' />  <img class='south 18' />
-        <img class='south 19' />  <img class='south 20' />  
-        <img class='south 21' />  <img class='south 22' />  
-        <img class='south 23' />  <img class='south 24' />
-        <img class='south 25' />  <img class='south 26' />  
-        <img class='south 27' />
+        <img class='south 1'  alt="">  <img class='south 2'  alt="">
+        <img class='south 3'  alt="">  <img class='south 4'  alt="">
+        <img class='south 5'  alt="">  <img class='south 6'  alt="">
+        <img class='south 7'  alt="">  <img class='south 8'  alt="">
+        <img class='south 9'  alt="">  <img class='south 10' alt="">
+        <img class='south 11' alt="">  <img class='south 12' alt="">
+        <img class='south 13' alt="">  <img class='south 14' alt="">
+        <img class='south 15' alt="">  <img class='south 16' alt="">
+        <img class='south 17' alt="">  <img class='south 18' alt="">
+        <img class='south 19' alt="">  <img class='south 20' alt="">
+        <img class='south 21' alt="">  <img class='south 22' alt="">
+        <img class='south 23' alt="">  <img class='south 24' alt="">
+        <img class='south 25' alt="">  <img class='south 26' alt="">
+        <img class='south 27' alt="">
     </div>
 <!--  -->
     <hr>

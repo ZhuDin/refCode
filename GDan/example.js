@@ -166,7 +166,7 @@ while (true) {
     break
 }
 
-// --------------------------------------------------------------------------
+// -------------------------------------------------------------------------
 const value_x     = document.getElementById("value-x")
 const value_x_add = document.getElementById("value-x-add")
 const value_x_pop = document.getElementById("value-x-pop")
@@ -178,12 +178,22 @@ value_x_add.onclick = function() {
     value_x.appendChild(valueX)
 }
 value_x_pop.onclick = function() {
-    if ((value_x_childs.length - 2) > 0) {
+    if ((value_x_childs.length - 3) > 0) {
         value_x.removeChild(value_x_childs[value_x_childs.length - 1])
     }
 }
 
-// --------------------------------------------------------------------------
+// -------------------------------------------------------------------------
+const value_z_max = document.getElementById('z_max')
+const value_z_min = document.getElementById('z_min')
+const value_z_max_min = document.getElementById('value-z-max-min')
+value_z_max.onclick = function() {
+    value_z_max_min.innerHTML = 'max'
+}
+value_z_min.onclick = function() {
+    value_z_max_min.innerHTML = 'min'
+}
+// -------------------------------------------------------------------------
 const timeID = document.getElementById('time')
 function currentTime() {
     timeID.innerHTML = 'current time: ' + new Date()
