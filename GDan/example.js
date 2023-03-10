@@ -171,15 +171,38 @@ const value_x     = document.getElementById("value-x")
 const value_x_add = document.getElementById("value-x-add")
 const value_x_pop = document.getElementById("value-x-pop")
 let value_x_childs = value_x.childNodes
+const fun_z = document.getElementById("function-z")
+let fun_z_childs = fun_z.childNodes
 value_x_add.onclick = function() {
-    let valueX = document.createElement('input')
+    let valueX = document.createElement('button')
+    let labelX = document.createElement('label')
+    let subX   = document.createElement('sub')
+    subX.innerHTML   = (value_x_childs.length - 1)
+    labelX.innerHTML = 'X'
+    labelX.appendChild(subX)
     valueX.type = 'button'
-    valueX.value = 'x' + (value_x_childs.length - 1)
+    valueX.appendChild(labelX)
     value_x.appendChild(valueX)
+    // ---------------------------------------------------------------------
+    let labelZ  = document.createElement('label')
+    labelZ.innerHTML = ' + '
+    let button  = document.createElement('button')
+    let labelZX = document.createElement('label')
+    let subZX   = document.createElement('sub')
+    subZX.innerHTML   = (value_x_childs.length - 2)
+    labelZX.innerHTML = ' x'
+    labelZX.appendChild(subZX)
+    button.contenteditable = true
+    button.type = 'button'
+    button.innerHTML = 0
+    labelZ.appendChild(button)
+    labelZ.appendChild(labelZX)
+    fun_z.appendChild(labelZ)
 }
 value_x_pop.onclick = function() {
     if ((value_x_childs.length - 3) > 0) {
         value_x.removeChild(value_x_childs[value_x_childs.length - 1])
+        fun_z.removeChild(fun_z_childs[fun_z_childs.length - 1])
     }
 }
 

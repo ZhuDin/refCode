@@ -8,7 +8,9 @@
 </head>
 <body>
     <!-- <a href="C:/download/C.mp4" download="GDan.exe">download</a> -->
-    Mark-up goes here...
+    Mark-up goes here...<br>
+    remain time:<label>29:29</label>
+    
     <form>
         name:<input type="text" placeholder='please enter your name'>&nbsp
         ID:  <input type="text" placeholder='please enter your id'>
@@ -16,7 +18,7 @@
     <hr>
 <!--  -->
     <form id='value-x'>
-        <label><input type="button" value="x1"></label>
+        <button type="button"><label>X<sub>1</sub></label></button>
     </form>
     <label><input type="button" id='value-x-add' value='+'></label>
     <label><input type="button" id='value-x-pop' value='-'></label>
@@ -26,10 +28,14 @@
         max:<input type="radio" name="Z" value="max" id='z_max' checked >
         min:<input type="radio" name="Z" value="min" id="z_min"><br>
     </label>
-    <button type="button" id='value-z-max-min'>max</button>
-    z=
-    <button type="button" value="0" contenteditable="true">0</button>
-    <label>x<sub>1</sub></label>
+    <form id='function-z'>
+        <button type="button" id='value-z-max-min'>max</button>
+        z=
+        <label>
+            <button type="button" contenteditable="true">0</button>
+            <label>x<sub>1</sub></label>
+        </label>
+    </form>
 <!--  -->
     <hr>
     <canvas id='drawing' width='200' height='200'>
