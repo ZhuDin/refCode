@@ -167,62 +167,118 @@ while (true) {
 }
 
 // -------------------------------------------------------------------------
-const value_x     = document.getElementById("value-x")
-const value_x_add = document.getElementById("value-x-add")
-const value_x_pop = document.getElementById("value-x-pop")
-let value_x_childs = value_x.childNodes
-const fun_z = document.getElementById("function-z")
-let fun_z_childs = fun_z.childNodes
-value_x_add.onclick = function() {
-    let valueX = document.createElement('button')
-    let labelX = document.createElement('label')
-    let subX   = document.createElement('sub')
-    subX.innerHTML   = (value_x_childs.length - 1)
-    labelX.innerHTML = 'X'
-    labelX.appendChild(subX)
-    valueX.type = 'button'
-    valueX.appendChild(labelX)
-    value_x.appendChild(valueX)
-    // ---------------------------------------------------------------------
-    let labelZ  = document.createElement('label')
-    labelZ.innerHTML = ' + '
-    let button  = document.createElement('button')
-    let labelZX = document.createElement('label')
-    let subZX   = document.createElement('sub')
-    subZX.innerHTML   = (value_x_childs.length - 2)
-    labelZX.innerHTML = ' x'
-    labelZX.appendChild(subZX)
-    button.contenteditable = true
-    button.type = 'button'
-    button.innerHTML = 0
-    labelZ.appendChild(button)
-    labelZ.appendChild(labelZX)
-    fun_z.appendChild(labelZ)
-}
-value_x_pop.onclick = function() {
-    if ((value_x_childs.length - 3) > 0) {
-        value_x.removeChild(value_x_childs[value_x_childs.length - 1])
-        fun_z.removeChild(fun_z_childs[fun_z_childs.length - 1])
+function varibleXGenerate() {
+    const value_x     = document.getElementById("value-x")
+    const value_x_add = document.getElementById("value-x-add")
+    const value_x_pop = document.getElementById("value-x-pop")
+    let value_x_childs = value_x.childNodes
+    const fun_z = document.getElementById("function-z")
+    let fun_z_childs = fun_z.childNodes
+    value_x_add.onclick = function() {
+        // -----------------------------------------------------------------
+        // add variable x
+        let valueX = document.createElement('button')
+        let labelX = document.createElement('label')
+        let subX   = document.createElement('sub')
+        subX.innerHTML   = (value_x_childs.length - 1)
+        labelX.innerHTML = 'X'
+        labelX.appendChild(subX)
+        valueX.type = 'button'
+        valueX.appendChild(labelX)
+        value_x.appendChild(valueX)
+        // -----------------------------------------------------------------
+        // change z refer to x
+        let labelZ  = document.createElement('label')
+        labelZ.innerHTML = ' + '
+        let button  = document.createElement('button')
+        let labelZX = document.createElement('label')
+        let subZX   = document.createElement('sub')
+        subZX.innerHTML   = (value_x_childs.length - 2)
+        labelZX.innerHTML = ' x'
+        labelZX.appendChild(subZX)
+        button.contenteditable = true
+        button.type = 'button'
+        button.innerHTML = 0
+        labelZ.appendChild(button)
+        labelZ.appendChild(labelZX)
+        fun_z.appendChild(labelZ)
+        // -----------------------------------------------------------------
+        // change constraint condition
+
+    }
+    value_x_pop.onclick = function() {
+        if ((value_x_childs.length - 3) > 0) {
+            value_x.removeChild(value_x_childs[value_x_childs.length - 1])
+            fun_z.removeChild(fun_z_childs[fun_z_childs.length - 1])
+        }
     }
 }
-
+addLoadEvent(varibleXGenerate())
 // -------------------------------------------------------------------------
-const value_z_max = document.getElementById('z_max')
-const value_z_min = document.getElementById('z_min')
-const value_z_max_min = document.getElementById('value-z-max-min')
-value_z_max.onclick = function() {
-    value_z_max_min.innerHTML = 'max'
+// fun z generate
+function funZGenerate() {
+    const value_z_max = document.getElementById('z_max')
+    const value_z_min = document.getElementById('z_min')
+    const value_z_max_min = document.getElementById('value-z-max-min')
+    value_z_max.onclick = function() {
+        value_z_max_min.innerHTML = 'max'
+    }
+    value_z_min.onclick = function() {
+        value_z_max_min.innerHTML = 'min'
+    }
 }
-value_z_min.onclick = function() {
-    value_z_max_min.innerHTML = 'min'
-}
+addLoadEvent(funZGenerate())
 // -------------------------------------------------------------------------
-const timeID = document.getElementById('time')
+// constraint function add pop 
+function funGenerate() {   
+    const fun_x_add = document.getElementById("fun-x-add")
+    const fun_x_pop = document.getElementById("fun-x-pop")
+    const fun_x     = document.getElementById('fun-x')
+    fun_x_add.onclick = function() {
+        let tr = document.createElement('tr')
+        let td = document.createElement('td')
+        td.innerHTML = 'fun-' + (fun_x.childNodes.length) + ':'
+        tr.appendChild(td)
+        fun_x.appendChild(tr)
+    }
+    fun_x_pop.onclick = function() {
+        if(fun_x.childNodes.length > 2) {
+            fun_x.removeChild(fun_x.lastChild)
+        }
+    }
+}
+addLoadEvent(funGenerate())
+// -------------------------------------------------------------------------
+// drawing the graphic
+function drawGraphic() {
+    let draw = document.getElementById("drawing")
+    let ctx = draw.getContext("2d")
+    ctx.moveTo(100, 200)
+    ctx.lineTo(300, 200)
+    ctx.stroke()
+    ctx.moveTo(100, 200)
+    ctx.lineTo(100, 0)
+    ctx.stroke()
+}
+addLoadEvent(drawGraphic())
+// -------------------------------------------------------------------------
+// set south location img card draggable="true"
+function setSouthImgDraggable() {
+    const south = document.getElementById("south")
+    let south_childs = south.childNodes
+    for (let i=1; i < south_childs.length; i+=2) {
+        // south_childs[i].draggable=true
+    }
+    console.log(south_childs)
+}
+addLoadEvent(setSouthImgDraggable())
+// -------------------------------------------------------------------------
+// show current time
 function currentTime() {
+    const timeID = document.getElementById('time')
     timeID.innerHTML = 'current time: ' + new Date()
 }
 setInterval(currentTime, 500)
-
 // --------------------------------------------------------------------------
 function addLoadEvent(func) {
     let oldonload = window.onload
