@@ -1,39 +1,11 @@
-const poker_size = (8.8, 5.7) // (8.8, 6.3)
-const choice = ['east', 'south', 'west', 'north']
-const two  = 2,  three = 3,  four = 4,  five = 5,  six  = 6, seven = 7
-const king = 13, queen = 12, jack = 11, ten  = 10, nine = 9, eight = 8
-const ace  = 1, black_joker = 53, red_joker = 54
-
-// cards: club-♣ diamond-♦ heart-♥ spade-♠
-const suits   = ['club', 'diamond', 'heart', 'spade']
-const figures = [ace, two, three, four, five, six, seven,   
-                 eight, nine, ten, jack, queen, king]
-
-const cards = new Array() // 54
-for (let j = 0; j < 13; j++) {
-    for(let i = 0; i < 4; i++) {
-        cards[i+j*4] = suits[i] + '-' + figures[j]
-    }
-}
-cards[cards.length] = 'joker-' + black_joker
-cards[cards.length] = 'joker-' + red_joker 
-cards.length *= 2
-cards.copyWithin(54) // 108
-console.log('Array-cards: ' + cards)
-
-const drawing = document.getElementById('drawing')
-if (drawing.getContext) {
-    let context = drawing.getContext('2d')
-    context.strokeStyle = 'red'
-    context.fillStyle = '#ff0000'
-}
-
-
 // players
 class Player {
     constructor(choice){
-        this.choice   = undefined
-        this.myCards  = new Array() 
+        this.choice = undefined
+        this.player_east = new Array()
+        this.player_south = new Array()
+        this.player_west = new Array()
+        this.player_north = new Array()
     }
 
     sort(cards) {
@@ -51,6 +23,34 @@ class Player {
         }
     }
 
+    deal(cards) {
+        this.player_east  = Array.from(cards)
+        this.player_east.length  = 27
+
+        this.player_south = Array.from(cards)
+        this.player_south.copyWithin(0, 27, 54)
+        this.player_south.length = 27
+
+        this.player_west  = Array.from(cards)
+        this.player_west.copyWithin(0, 54, 81)
+        this.player_west.length  = 27
+
+        this.player_north = Array.from(cards)
+        this.player_north.copyWithin(0, 81, 108)
+        this.player_north.length = 27
+    }
+
+    shuffle(cards) {
+        // arrayObj[index] = value; for index in arrayObj
+        for (const card in cards) {
+            // const rand = Math.floor(Math.random() * 108)
+            const rand = getRandomIntInclusive(0, 107)
+            const temp  = cards[card]
+            cards[card] = cards[rand]
+            cards[rand] = temp
+        }
+    }
+
     show(choice) {
         let path = Array.from(window.location.pathname)
         path.splice(0, 1)
@@ -61,7 +61,7 @@ class Player {
         for (let i = 0; i < links.length; i++) {
             let myCardPath = path + 'images/'
             if (choice == 'south') {
-                myCardPath += this.myCards[i] + '.jpg'
+                myCardPath += this.player_north[i] + '.jpg'
             } else {
                 myCardPath += 'poker-back.jpg'
             }
@@ -71,24 +71,30 @@ class Player {
         }
     }
 }
-
-
+// -------------------------------------------------------------------------
 class Poker {
-    static play(token, turn) {
-        this.token = token
-        this.turn  = turn
-        console.log(token)
-
-        // const http = require('http')
-        // const hostname = "192.168.43.56"
-        // const port = 53333
-        // const server = http.createServer((req, res) => {
-        //     res.statusCode = 200;
-        //     res.setHeader('Content-Type', 'text/html; charset=utf-8')
-        //     res.end('')
-        // })
-
-        console.log(turn)
+    constructor() {
+        this.poker_size = (8.8, 5.7) // (8.8, 6.3)
+        this.choice = ['east', 'south', 'west', 'north']
+        this.ace   = 1
+        this.two   = 2
+        this.three = 3
+        this.four  = 4
+        this.five  = 5
+        this.six   = 6
+        this.seven = 7
+        this.eight = 8
+        this.nine  = 9
+        this.ten   = 10
+        this.jack  = 11
+        this.queen = 12
+        this.king  = 13
+        this.black_joker = 53
+        this.red_joker = 54
+        // -----------------------------------------------------------------
+        // cards: club-♣ diamond-♦ heart-♥ spade-♠
+        this.suits   = ['club', 'diamond', 'heart', 'spade']
+        this.figures = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
     }
 
     houseRules(token) {
@@ -108,79 +114,70 @@ class Poker {
         let no_pair       = null // 3
     }
 }
-
-
-function shuffle() {
-    // arrayObj[index] = value; for index in arrayObj
-    for (const card in cards) { 
-        // const rand = Math.floor(Math.random() * 108)
-        const rand = getRandomIntInclusive(0, 107)
-        const temp  = cards[card]
-        cards[card] = cards[rand]
-        cards[rand] = temp
+// -------------------------------------------------------------------------
+// start game
+function startGame() {
+    console.info('New Game')
+    let token = 'heart-2'
+    // ---------------------------------------------------------------------
+    // sort cards
+    let player = new Player()
+    while (true) {
+        poker = new Poker()
+        // -----------------------------------------------------------------
+        // cards
+        const first = Math.floor(Math.random() * 4)
+        const turn  = poker.choice[first]
+        const cards = new Array() // 54
+        for (let j = 0; j < 13; j++) {
+            for(let i = 0; i < 4; i++) {
+                cards[i+j*4] = poker.suits[i] + '-' + poker.figures[j]
+            }
+        }
+        cards[cards.length] = 'joker-' + poker.black_joker
+        cards[cards.length] = 'joker-' + poker.red_joker
+        cards.length *= 2
+        cards.copyWithin(54) // 108
+        console.log('Array-cards: ' + cards)
+        // -----------------------------------------------------------------
+        // shuffle cards
+        player.shuffle(cards)
+        // deal cards
+        player.deal(cards)
+        // show cards
+        player.show('east')
+        player.show("south")
+        player.show('west')
+        player.show('north')
+        // const http = require('http')
+        // const hostname = "192.168.43.56"
+        // const port = 53333
+        // const server = http.createServer((req, res) => {
+        //     res.statusCode = 200;
+        //     res.setHeader('Content-Type', 'text/html; charset=utf-8')
+        //     res.end('')
+        // })
+        console.log(turn)
+        break
     }
 }
-shuffle()
-
-let player_east  = new Player()
-let player_south = new Player()
-let player_west  = new Player()
-let player_north = new Player()
-// first player
-const first = Math.floor(Math.random() * 4)
-const turn  = choice[first]
-
-function deal() {
-    player_east.myCards  = Array.from(cards)
-    player_east.myCards.length  = 27
-    player_east.show('east')
-
-    player_south.myCards = Array.from(cards)
-    player_south.myCards.copyWithin(0, 27, 54)
-    player_south.myCards.length = 27
-    player_south.show('south')
-
-    player_west.myCards  = Array.from(cards)
-    player_west.myCards.copyWithin(0, 54, 81)
-    player_west.myCards.length  = 27
-    player_west.show('west')
-
-    player_north.myCards = Array.from(cards)
-    player_north.myCards.copyWithin(0, 81, 108)
-    player_north.myCards.length = 27
-    player_north.show('north')
-}
-deal()
-
-// sort cards
-player_east.sort()
-player_south.sort()
-player_west.sort()
-player_north.sort()
-
-// start game
-console.info('New Game')
-let   token = 'heart-2'
-while (true) {
-    Poker.play(token, turn)
-    break
-}
-
+addLoadEvent(startGame())
 // -------------------------------------------------------------------------
 function varibleXGenerate() {
-    const value_x     = document.getElementById("value-x")
     const value_x_add = document.getElementById("value-x-add")
     const value_x_pop = document.getElementById("value-x-pop")
-    let value_x_childs = value_x.childNodes
+    const value_x     = document.getElementById("value-x")
+    let value_x_children = value_x.children
     const fun_z = document.getElementById("function-z")
-    let fun_z_childs = fun_z.childNodes
+    const fun_x = document.getElementById('function-x')
+    let fun_x_children = fun_x.children
     value_x_add.onclick = function() {
         // -----------------------------------------------------------------
         // add variable x
         let valueX = document.createElement('button')
         let labelX = document.createElement('label')
         let subX   = document.createElement('sub')
-        subX.innerHTML   = (value_x_childs.length - 1)
+        subX.innerHTML   = value_x_children.length + 1
         labelX.innerHTML = 'X'
         labelX.appendChild(subX)
         valueX.type = 'button'
@@ -191,9 +188,10 @@ function varibleXGenerate() {
         let labelZ  = document.createElement('label')
         labelZ.innerHTML = ' + '
         let button  = document.createElement('button')
+        button.setAttribute('contenteditable', true)
         let labelZX = document.createElement('label')
         let subZX   = document.createElement('sub')
-        subZX.innerHTML   = (value_x_childs.length - 2)
+        subZX.innerHTML   = value_x_children.length
         labelZX.innerHTML = ' x'
         labelZX.appendChild(subZX)
         button.contenteditable = true
@@ -203,13 +201,36 @@ function varibleXGenerate() {
         labelZ.appendChild(labelZX)
         fun_z.appendChild(labelZ)
         // -----------------------------------------------------------------
-        // change constraint condition
-
+        // change constraint condition refer to x
+        for (let i = 0; i < fun_x_children.length; i++) {
+            let td = document.createElement('td')
+            let labelZ  = document.createElement('label')
+            labelZ.innerHTML = ' + '
+            let button  = document.createElement('button')
+            button.setAttribute('contenteditable', true)
+            let labelZX = document.createElement('label')
+            let subZX   = document.createElement('sub')
+            subZX.innerHTML   = value_x_children.length
+            labelZX.innerHTML = ' x'
+            labelZX.appendChild(subZX)
+            button.contenteditable = true
+            button.type = 'button'
+            button.innerHTML = 0
+            labelZ.appendChild(button)
+            labelZ.appendChild(labelZX)
+            td.appendChild(labelZ)
+            fun_x_children[i].appendChild(td)
+        }
     }
     value_x_pop.onclick = function() {
-        if ((value_x_childs.length - 3) > 0) {
-            value_x.removeChild(value_x_childs[value_x_childs.length - 1])
-            fun_z.removeChild(fun_z_childs[fun_z_childs.length - 1])
+        if (value_x_children.length > 1) {
+            value_x.removeChild(value_x.lastElementChild)
+            fun_z.removeChild(fun_z.lastElementChild)
+            for (let i = 0; i < fun_x_children.length; i++) {
+                fun_x_children[i].removeChild(
+                    fun_x_children[i].lastElementChild
+                )
+            }
         }
     }
 }
@@ -229,21 +250,41 @@ function funZGenerate() {
 }
 addLoadEvent(funZGenerate())
 // -------------------------------------------------------------------------
-// constraint function add pop 
-function funGenerate() {   
+// constraint function add pop
+function funGenerate() {
     const fun_x_add = document.getElementById("fun-x-add")
     const fun_x_pop = document.getElementById("fun-x-pop")
-    const fun_x     = document.getElementById('fun-x')
+    const fun_x     = document.getElementById('function-x')
+    const value_x   = document.getElementById('value-x')
+    let value_x_children = value_x.children
     fun_x_add.onclick = function() {
         let tr = document.createElement('tr')
         let td = document.createElement('td')
-        td.innerHTML = 'fun-' + (fun_x.childNodes.length) + ':'
+        td.innerHTML = 'fun-' + (fun_x.childNodes.length - 1) + ':'
         tr.appendChild(td)
+        for (let i = 0; i < value_x_children.length; i++) {
+            td = document.createElement('td')
+            if ( i > 0) {
+                td.innerHTML = ' + '
+            }
+            let button  = document.createElement('button')
+            button.setAttribute('contenteditable', true)
+            let labelZX = document.createElement('label')
+            let subZX   = document.createElement('sub')
+            subZX.innerHTML   = i + 1
+            labelZX.innerHTML = ' x'
+            labelZX.appendChild(subZX)
+            button.type = 'button'
+            button.innerHTML = 0
+            td.appendChild(button)
+            td.appendChild(labelZX)
+            tr.appendChild(td)
+        }
         fun_x.appendChild(tr)
     }
     fun_x_pop.onclick = function() {
         if(fun_x.childNodes.length > 2) {
-            fun_x.removeChild(fun_x.lastChild)
+            fun_x.removeChild(fun_x.lastElementChild)
         }
     }
 }
@@ -251,14 +292,18 @@ addLoadEvent(funGenerate())
 // -------------------------------------------------------------------------
 // drawing the graphic
 function drawGraphic() {
-    let draw = document.getElementById("drawing")
-    let ctx = draw.getContext("2d")
-    ctx.moveTo(100, 200)
-    ctx.lineTo(300, 200)
-    ctx.stroke()
-    ctx.moveTo(100, 200)
-    ctx.lineTo(100, 0)
-    ctx.stroke()
+    const drawing = document.getElementById('drawing')
+    if (drawing.getContext) {
+        let context = drawing.getContext('2d')
+        context.strokeStyle = 'green'
+        context.fillStyle = '#ff0000'
+        context.moveTo(100, 200)
+        context.lineTo(300, 200)
+        context.stroke()
+        context.moveTo(100, 200)
+        context.lineTo(100, 0)
+        context.stroke()
+    }
 }
 addLoadEvent(drawGraphic())
 // -------------------------------------------------------------------------
@@ -267,9 +312,8 @@ function setSouthImgDraggable() {
     const south = document.getElementById("south")
     let south_childs = south.childNodes
     for (let i=1; i < south_childs.length; i+=2) {
-        // south_childs[i].draggable=true
+        south_childs[i].setAttribute('draggable', true)
     }
-    console.log(south_childs)
 }
 addLoadEvent(setSouthImgDraggable())
 // -------------------------------------------------------------------------
